@@ -93,7 +93,7 @@ function App() {
         <ProfileCard
         key={index}
         Name = {user.Name}
-        Position={user.Place}
+        Position={user.Position}
         Age = {user.Age}
         Location = {user.Place}
         ProfileImage={user.ProfileImage}

@@ -9,7 +9,7 @@ const Profilecard = ({Name, Age, Location, ProfileImage, Position, Theme}) => {
             <img src={ProfileImage} alt={`${Name}'s profile`} id='ProfileImage' />
             <div className="ProfileInfo">
                 <h2>{Name}</h2>
-                <p>{Position}</p>
+                <p> {Position}</p>
                 <p>Age: {Age}</p>
                 <p>Location: {Location}</p>
             </div>
